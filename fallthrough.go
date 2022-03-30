@@ -20,11 +20,11 @@ func main() {
 	case 10 > 11:
 		fmt.Println("10>11")
 	case 5 > 1:
-		fallthrough
+		fallthrough // result
 	case 1 > 10:
-		fmt.Println("1>10")
+		fmt.Println("1>10") // result
 	default:
-		fmt.Println("None 2") // result
+		fmt.Println("None 2")
 	}
 
 	switch {
